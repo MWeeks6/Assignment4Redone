@@ -1,0 +1,41 @@
+:root {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(60deg, #85e2ff 0%, #f7ec48 100%) no-repeat;
+  max-width: 100vw;
+  height: 100vh;
+}
+
+.main-container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header {
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.location-container {
+  display: flex;
+  font-size: 0.75rem;
+  gap: 5em;
+}
+.weather-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#showWeather {
+  padding: 1em;
+  border-radius: 20px;
+  border-style: none;
+}
